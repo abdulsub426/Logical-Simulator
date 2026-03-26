@@ -59,7 +59,9 @@ st.write("Example Rule: If Human(x) → Mortal(x)")
 
 # Knowledge base (simple AI concept)
 humans = ["Ali", "Ahmed", "Sara"]
-new_humans = humans.lower()
+new_humans = []
+for h in humans:
+    new_human.append(w.lower())
 
 # Input
 name = st.text_input("Enter a name (e.g., Ali):")
