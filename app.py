@@ -66,9 +66,10 @@ for h in humans:
 # Input
 name = st.text_input("Enter a name (e.g., Ali):")
 
-# Predicate function
+# Predicate function (case-insensitive)
 def is_mortal(x):
-    return x in humans
+    # Compare lowercased input with lowercased knowledge base
+    return x.lower() in [h.lower() for h in humans]
 
 # Button
 if st.button("Check"):
