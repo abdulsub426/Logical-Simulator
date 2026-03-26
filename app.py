@@ -61,7 +61,7 @@ st.write("Example Rule: If Human(x) → Mortal(x)")
 humans = ["Ali", "Ahmed", "Sara"]
 new_humans = []
 for h in humans:
-    new_humans.append(w.lower())
+    new_humans.append(h.lower())
 
 # Input
 name = st.text_input("Enter a name (e.g., Ali):")
