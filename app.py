@@ -59,6 +59,7 @@ st.write("Example Rule: If Human(x) → Mortal(x)")
 
 # Knowledge base (simple AI concept)
 humans = ["Ali", "Ahmed", "Sara"]
+new_humans = humans.lowercase()
 
 # Input
 name = st.text_input("Enter a name (e.g., Ali):")
